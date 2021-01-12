@@ -3,7 +3,11 @@
 @media screen and (min-width : 1000px){
     
     body{
-        padding:2%;
+        padding: 5%;
+    }
+
+    a{
+        margin-bottom: 5%;
     }
 
     /*Header*/
@@ -84,8 +88,13 @@
      .aside{
         padding: 0 2%;
         border-radius: 20px;
-        width: 25%;
+        width: 22%;
         order: 2;
+    }
+
+    .title_aside{
+        display: flex;
+        align-items: baseline;
     }
 
     .aside h2{
@@ -119,8 +128,7 @@
         border-radius: 20px;
         width: 65%;
         padding:0 1%;
-
-    }
+}
 
     .box_cards{
         display: flex;
@@ -133,6 +141,13 @@
         width: 30%;
         margin: 1%;
         height: 13em;
+    }
+
+    /*Section Activity*/
+
+    .cards_activity{
+        width: 30%;
+        height: 100%;
     }
 
     /*Footer*/
