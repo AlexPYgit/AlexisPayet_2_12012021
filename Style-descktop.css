@@ -1,0 +1,148 @@
+/*Style Descktop*/
+
+@media screen and (min-width : 1000px){
+    
+    body{
+        padding:2%;
+    }
+
+    /*Header*/
+    .en-tête{
+        display:flex;
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+    .SiteHeader-title{
+        display: flex;
+        width: 50%;
+        order: -1;
+    }
+
+    .menu{
+        display: flex;
+        width: 10%;
+        order: -1;
+        border-bottom: none;
+        padding-top: 20px;
+
+    }
+    .menu:hover{
+        text-decoration-color:  #0065FC;
+        border-top: 2px solid #0065FC;
+        border-bottom: none;
+    }
+    .menu a:hover{
+        color: #0065FC;
+    }
+    #link-register{
+        display: flex;
+        align-items: baseline;
+        width: 10%;
+        order: 2;
+    }
+
+    .SiteHeader-h1{
+        font-size:1.05em;
+        font-weight: bold;
+    }
+    #SiteHeader-slogan{
+        color:black;
+        font-size: 0.85em;
+    }
+   
+    /*Button*/
+    #ico_btn_search{
+        display: none;
+    }
+    #text_btn_search{
+        display: flex;
+    }
+
+    /*Filter */
+    .Filter{
+        display: flex;
+        align-items: center;
+    }
+
+    .Filter_block{
+        display: flex;
+        flex-flow: row;
+        height: auto;
+    }
+    .FilterChoice{
+        order: 1;
+    }
+
+    /*Main Section*/
+    .main_section{
+        display: flex;
+        justify-content: space-between;
+        align-content: flex-start;
+    }
+
+     /*ASIDE*/
+     .aside{
+        padding: 0 2%;
+        border-radius: 20px;
+        width: 25%;
+        order: 2;
+    }
+
+    .aside h2{
+        margin-bottom: 0%;
+    }
+
+    .text_populaires h3{
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 5%;
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .img_populaires{
+    width: 50%;
+    border-radius: 20px 0 0 20px;
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    }
+    
+/* Section hebergements*/
+    .section{
+        display: flex;
+        flex-direction: column;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        width: 65%;
+        padding:0 1%;
+
+    }
+
+    .box_cards{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+
+    .cards_hebergements{
+        width: 30%;
+        margin: 1%;
+        height: 13em;
+    }
+
+    /*Footer*/
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .Footer-block-hide{
+        visibility: hidden;
+    }
+}
