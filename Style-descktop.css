@@ -8,6 +8,7 @@
 
     a{
         margin-bottom: 5%;
+        
     }
 
     /*Header*/
@@ -146,8 +147,6 @@
     /*Section Activity*/
 
     .cards_activity{
-        width: 30%;
-        height: 100%;
     }
 
     /*Footer*/
