@@ -347,3 +347,97 @@ a{
 .Footer-block-hide{
     display: none;
 }
+
+
+@media all and (min-width : 600px) and (max-width: 1315px){
+
+/*Section populaires*/
+    .aside{
+        padding: 1%;
+        border-radius: 20px;
+
+    }
+    
+    .populaires_block{
+        display: flex;
+        width: 100%;
+    }
+
+    .cards_populaires{
+        margin: 1%;
+    }
+
+/*Section hebergments*/
+
+.section{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 1%;
+}
+    .box_cards{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .cards_hebergements{
+        width: 45%;
+        height: 15em;
+        margin-top: 1%;
+    }
+
+    /*Section activity*/
+
+    .first_activity{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .double_cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        height: 25em;
+    }
+
+    .cards_activity{
+        width: 45%;
+        margin: 0%;
+    }
+    .img_activity_destop{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px 20px 0 0;
+        background-position: center;
+        background-size:  200%;
+        background-position-y: 10%;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+    }
+
+    .big_cards{
+        height: 25em;
+    }
+
+    .medium_cards{
+        width: 100%;
+    }
+
+    .small_cards{
+        width: 100%;
+        height: 40%;
+        background-position-y: 40%;
+    }
+
+    .text_activity{
+        height: 3em;
+        display: flex;
+        align-items: center;
+    }
