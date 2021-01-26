@@ -14,13 +14,13 @@
         padding: 0 20px 0 20px;
     }
 
-    .en-tête{
+    #en-tête{
         display:flex;
         align-items: flex-start;
         justify-content: space-between;
     }
 
-    .menu-nav{
+    #menu-nav{
         display: flex;
         justify-content:space-around;
         align-items: baseline;
@@ -119,6 +119,11 @@
 
     .aside h2{
         margin-bottom: 0%;
+    }
+
+    .populaires_block{
+        display: flex;
+        flex-direction: column;
     }
 
     .populaires_block a{

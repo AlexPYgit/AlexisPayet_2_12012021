@@ -39,7 +39,7 @@ a{
     margin: 20px 0 30px 0;
 }
 
-.menu-nav{
+#menu-nav{
     display: flex;
     justify-content: space-around;
     
