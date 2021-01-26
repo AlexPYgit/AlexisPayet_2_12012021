@@ -3,7 +3,7 @@
 @media screen and (min-width : 1025px){
     
     body{
-margin: 0%;    }
+    margin: 0%;    }
 
     a{
         margin-bottom: 5%;
@@ -11,25 +11,35 @@ margin: 0%;    }
     }
 
     /*Header*/
-    .en-tête{
-        display:flex;
-        flex-direction:row;
-        flex-wrap: nowrap;
-        align-items: baseline;
-    }
-    .SiteHeader-title{
-        display: flex;
-        width: 50%;
-        order: -1;
-        margin-top: 0%;
+    header{
+        padding: 0 20px 0 20px;
     }
 
-    .menu{
+    .en-tête{
+        display:flex;
+        margin-top: 50px;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .menu-nav{
         display: flex;
+        justify-content:space-around;
+        align-items: flex-start;
+        width: 30%;
+        }
+
+    .menu{
         width: 10%;
-        order: -1;
         border-bottom: none;
-        padding-top: 20px;
+        padding-top: 48px;
+    }
+
+    .menu-mobil{
+        border-bottom: none;
+    }
+    .menu-mobil:hover{
+        border-bottom: none;
     }
     
     .menu:hover{
@@ -37,14 +47,15 @@ margin: 0%;    }
         border-top: 2px solid #0065FC;
         border-bottom: none;
     }
-    .menu a:hover{
+    
+    #link_register-descktop{
         color: #0065FC;
+        font-weight: bold;
+        text-decoration: none;
+        display: none;
     }
-    #link-register{
-        display: flex;
-        align-items: baseline;
-        width: 10%;
-        order: 2;
+    #link_register-mobil{ 
+        display: block;
     }
 
     .SiteHeader-h1{
@@ -88,6 +99,7 @@ margin: 0%;    }
         display: flex;
         justify-content: space-between;
         align-content: flex-start;
+        padding: 0 20 px 0 20px;
     }
 
      /*ASIDE*/

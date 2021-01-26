@@ -18,6 +18,7 @@ body{
     margin: 0%;
     font-family: 'Raleway';
 }
+
 a{
     text-decoration: none;
     margin-top: 5%;
@@ -26,42 +27,56 @@ a{
 
 .header{
     display: flex;
+    padding: 0 20px 0 20px;
+
 }
 
-.SiteHeader-title{
-    width: 70%;
-}
-
-.en-tête{
+#title-mobil{
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
+    padding: 0 20px 0 20px;
 }
 
-.menu{
+.menu-nav{
     display: flex;
     justify-content: space-around;
+    
+}
+
+.menu-mobil{
     border-bottom: 2px solid #F2F2F2;
     width: 50%;
+    text-align: center;
 }
-.menu a{
+
+.menu-mobil:hover{
+    border-bottom: 2px solid #0065FC;
+    text-decoration-color:  #0065FC;
+
+}
+
+
+.menu{
     text-decoration: none;
     color: black;
 }
 
 .menu:hover{
-    text-decoration-color:  #0065FC;
-    border-bottom: 2px solid #0065FC;
-}
-.menu a:hover{
     color: #0065FC;
 }
 
-#link_register{   
+#link_register-mobil{   
     color: #0065FC;
     font-weight: bold;
     text-decoration: none;
+    display: none;
+}
+#link_register-descktop{
+    color: #0065FC;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
 }
 
 .SiteHeader-h1{
