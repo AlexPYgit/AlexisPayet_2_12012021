@@ -15,7 +15,7 @@
 body{
     display: flex;
     flex-direction: column;
-    padding: 5%;
+    margin: 0%;
     font-family: 'Raleway';
 }
 a{
@@ -234,9 +234,6 @@ a{
 }
 .text_populaires p{
     margin-bottom: 3%;
-}
-
-.star_populaires{
 }
 
 /*Section hebergements*/

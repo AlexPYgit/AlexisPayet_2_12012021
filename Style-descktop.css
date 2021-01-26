@@ -3,8 +3,7 @@
 @media screen and (min-width : 1025px){
     
     body{
-        padding: 2%;
-    }
+margin: 0%;    }
 
     a{
         margin-bottom: 5%;
@@ -14,6 +13,7 @@
     /*Header*/
     .en-tête{
         display:flex;
+        flex-direction:row;
         flex-wrap: nowrap;
         align-items: baseline;
     }
@@ -21,6 +21,7 @@
         display: flex;
         width: 50%;
         order: -1;
+        margin-top: 0%;
     }
 
     .menu{
