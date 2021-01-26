@@ -1,13 +1,12 @@
 /*Style Descktop*/
 
 @media screen and (min-width : 1025px){
-    
+
     body{
     margin: 0%;    }
 
-    a{
-        margin-bottom: 5%;
-        
+    h2{
+        margin-top: 40px;
     }
 
     /*Header*/
@@ -17,7 +16,6 @@
 
     .en-tête{
         display:flex;
-        margin-top: 50px;
         align-items: flex-start;
         justify-content: space-between;
     }
@@ -25,26 +23,27 @@
     .menu-nav{
         display: flex;
         justify-content:space-around;
-        align-items: flex-start;
+        align-items: baseline;
         width: 30%;
         }
 
     .menu{
         width: 10%;
         border-bottom: none;
-        padding-top: 48px;
     }
 
     .menu-mobil{
         border-bottom: none;
+        padding-top: 40px;
     }
+
     .menu-mobil:hover{
         border-bottom: none;
+        border-top: 2px solid #0065FC;
     }
     
     .menu:hover{
         text-decoration-color:  #0065FC;
-        border-top: 2px solid #0065FC;
         border-bottom: none;
     }
     
@@ -56,6 +55,7 @@
     }
     #link_register-mobil{ 
         display: block;
+
     }
 
     .SiteHeader-h1{
@@ -82,6 +82,7 @@
     .Filter{
         display: flex;
         align-items: center;
+        margin-top: 30px;
     }
 
     .Filter_block{
@@ -92,14 +93,15 @@
     
     .FilterChoice{
         order: 1;
+        margin-left: 20px;
     }
 
     /*Main Section*/
     .main_section{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-content: flex-start;
-        padding: 0 20 px 0 20px;
+        padding: 0 20px 0 20px;
     }
 
      /*ASIDE*/
@@ -117,6 +119,10 @@
 
     .aside h2{
         margin-bottom: 0%;
+    }
+
+    .populaires_block a{
+        margin:0%;
     }
 
     .text_populaires h3{
@@ -145,23 +151,32 @@
         background-color: #F2F2F2;
         border-radius: 20px;
         width: 66%;
-        padding:0 1%;
 }
 
     .box_cards{
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         align-content: space-around;
     }
 
     .cards_hebergements{
         width: 30%;
-        margin: 1%;
         height: 13em;
+        margin: 0%;
+        margin-bottom: 20px;
+    }
+
+    #link-hebergement{
+        padding: 30px 0;
+        margin: 0%;
     }
 
     /*Section Activity*/
+
+    #activity{
+        padding-left: 20px;
+    }
 
     .box_activity{
         display: flex;
@@ -226,10 +241,11 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        margin-top: 2%;
+        margin-top: 5%;
     }
 
     .Footer-block-hide{
+        display: block;
         visibility: hidden;
     }
 }
