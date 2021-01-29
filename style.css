@@ -177,6 +177,7 @@ a{
 .InformationResult{
     display: flex;
     align-items: baseline;
+    width: 100%;
 }
 
 /*Mise en forme des icon*/
@@ -198,7 +199,7 @@ a{
     margin-right: 10px;
     color: #0065FC;
     border: 2px solid #F2F2F2;
-    border-radius: 50px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -372,10 +373,15 @@ a{
 
 @media all and (min-width : 600px) and (max-width: 1024px){
 
+#info{
+    padding: 40px  50px 0 50px;
+}
+
 /*Section populaires*/
     .aside{
-        padding: 15%;
+        padding:20px 15%;
         border-radius: 20px;
+        margin: 40px 30px 0 30px;
     }
     
     .populaires_block{
@@ -396,6 +402,7 @@ a{
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 1%;
+    margin: 20px 30px 0 30px;
 }
     .box_cards{
         display: flex;
@@ -406,7 +413,12 @@ a{
     .cards_hebergements{
         width: 45%;
         height: 15em;
-        margin-top: 1%;
+        margin: 0%;
+        margin-top: 5%;
+    }
+
+    #hébergement{
+    margin-left: 20px;
     }
 
     /*Section activity*/
@@ -461,6 +473,10 @@ a{
         height: 3em;
         display: flex;
         align-items: center;
+    }
+
+    #activity{
+    margin-left: 20px;
     }
 
     /*Section footer*/
