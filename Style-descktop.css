@@ -245,8 +245,9 @@
     .footer{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-top: 5%;
+        padding:0 0 40px 40px;
     }
 
     .Footer-block-hide{

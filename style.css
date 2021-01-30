@@ -153,14 +153,12 @@ a{
 }
 
 .FilterChoice{
-    border: 2px solid  #F2F2F2;
-    border-radius: 30px;
-    margin:0 0 10px 0;
     display: flex;
     width: max-content;
+    margin-bottom: 10px;
 }
 
-.FilterChoice:hover {
+.elements-choice:hover {
     transition: 0.2s;
     background-color: #F2F2F2;
 }
@@ -170,7 +168,12 @@ a{
 }
 
 .elements-choice{
-    margin: 10px;
+    border: 2px solid  #F2F2F2;
+    border-radius: 30px;
+    padding: 12px 20px 10px 65px;
+    text-align: end;
+    margin-left: -50px;
+
 }
 
 .InformationResult div{
@@ -181,8 +184,8 @@ a{
 
 /*Mise en forme des icon*/
 .circle-icon{
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     background-color: #DEEBFF;
     border-radius: 50px;
     color:#0065FC;
@@ -190,6 +193,7 @@ a{
     align-items: center;
     justify-content: center;
     transition: 0.2s;
+    z-index: 2;
 }
 
 .icon-info{
@@ -353,7 +357,7 @@ a{
     display: flex;
     flex-direction: column;
     background-color:#F2F2F2;
-    height: 200px;
+    padding:0 0 20px 20px;
 }
 
 .Footer-block ul{
@@ -431,6 +435,10 @@ a{
 
     #hébergement{
     margin-left: 20px;
+    }
+
+    #link-hebergement{
+    margin: 20px 10px 10px 20px;
     }
 
     /*Section activity*/
