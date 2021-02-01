@@ -239,7 +239,7 @@ a{
 
 .img_populaires{
     width: 45%;
-    border-radius: 20px 0 0 20px;
+    border-radius: 15px 0 0 15px;
     background-position: center;
     background-size:  cover;
     background-repeat: no-repeat;
@@ -286,7 +286,7 @@ a{
 .img_hebergements{
     width: 100%;
     height: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
     background-position: center;
     background-size:  100%;
     background-repeat: no-repeat;

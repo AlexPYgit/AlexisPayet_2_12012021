@@ -142,11 +142,7 @@
 
     .img_populaires{
     width: 50%;
-    border-radius: 20px 0 0 20px;
-    background-position: center;
-    background-size:  cover;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+    border-radius: 15px 0 0 15px;
     }
     
 /* Section hebergements*/
