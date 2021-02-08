@@ -127,7 +127,11 @@
     }
 
     .populaires_block a{
-        margin:0%;
+        margin:10% 0 10% 0;
+    }
+
+    .cards_populaires{
+        margin: 0%;
     }
 
     .text_populaires h3{
@@ -171,6 +175,7 @@
     #link-hebergement{
         padding: 30px 0;
         margin: 0%;
+        width: max-content;
     }
 
     /*Section Activity*/
