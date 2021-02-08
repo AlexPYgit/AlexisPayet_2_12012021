@@ -66,8 +66,17 @@
         color:black;
         font-size: 0.85em;
     }
+  
     .InformationResult{
         padding-top: 30px;
+    }
+
+    /*Barre de recherche*/
+    .SiteHeader-btn{
+        border-radius: 0 10px 10px 0;
+    }
+    .SiteHeader-search-input{
+        max-width: 15%;
     }
    
     /*Button*/
@@ -81,7 +90,6 @@
     /*Filter */
     .Filter{
         display: flex;
-        align-items: center;
         margin-top: 30px;
     }
 
